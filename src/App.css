@@ -1,0 +1,6 @@
+#root{
+  @apply lg:px-56 lg:py-36 bg-[#222222] h-screen w-screen overflow-scroll px-16 py-8;
+}
+.sub-title{
+ @apply font-header text-4xl text-white font-semibold;
+}

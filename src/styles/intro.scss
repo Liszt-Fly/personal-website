@@ -1,0 +1,11 @@
+.intro {
+    @apply flex flex-col;
+
+    .title {
+        @apply flex flex-col font-header text-6xl text-white font-bold;
+    }
+
+    .description {
+        @apply mt-6 flex flex-col text-white font-header text-lg;
+    }
+}
