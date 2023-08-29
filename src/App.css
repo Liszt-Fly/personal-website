@@ -1,5 +1,5 @@
 #root{
-  @apply md:px-56 lg:py-36 bg-[#222222] h-screen w-screen overflow-scroll px-6 py-8;
+  @apply md:px-36 md:py-24 lg:px-56 lg:py-36 bg-[#222222] h-screen w-screen overflow-scroll px-8 py-8;
 }
 .sub-title{
  @apply font-header text-4xl text-white font-semibold;
