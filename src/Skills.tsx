@@ -20,7 +20,7 @@ export function Skills() {
   let skillItems = skills.map((item) => {
     return (
       <div
-        className="item bg-[#424248] p-4 rounded-md transition duration-400 hover:bg-[#5d5d65] flex items-center text-2xl justify-center text-white"
+        className="item font-semibold bg-[#424248] p-2 rounded-md transition duration-400 hover:bg-[#5d5d65] flex items-center text-lg justify-center text-white"
         key={item.name}
       >
         <img src={item.logo} width="40" className="mr-2"></img>
@@ -30,9 +30,9 @@ export function Skills() {
   });
   return (
     <>
-      <div className="skills mt-4">
+      <div className="skills mt-8">
         <span className="Skills sub-title">Skills</span>
-        <div className="box grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-10 mt-4">
+        <div className="box grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           {skillItems}
         </div>
       </div>

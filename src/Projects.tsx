@@ -32,7 +32,7 @@ export function Projects() {
     return (
       <a
         href={item.href}
-        className="item bg-[#424248] p-4 rounded-md transition duration-400 hover:bg-[#5d5d65] flex items-center text-2xl  text-white"
+        className="item bg-[#424248] p-2 rounded-md transition duration-400 hover:bg-[#5d5d65] flex items-center text-lg  text-white"
         key={item.name}
       >
         <img src={item.icon} width="40" className="mr-4"></img>
@@ -47,7 +47,7 @@ export function Projects() {
     <>
       <div className="project mt-8">
         <span className="Skills sub-title">Projects</span>
-        <div className="box grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-10 mt-4">
+        <div className="box grid grid-flow-row grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           {projects}
         </div>
       </div>
